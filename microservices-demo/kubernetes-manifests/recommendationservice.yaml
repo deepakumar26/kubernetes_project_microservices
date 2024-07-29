@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: recommendationservice
+        image: deepakd261993/recommendationsservce:latest
         ports:
         - containerPort: 8080
         readinessProbe:
